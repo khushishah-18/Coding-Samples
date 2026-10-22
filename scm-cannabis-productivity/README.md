@@ -4,6 +4,8 @@
 
 > This folder is a shortened version of the project. The full notebook, including covariate selection and additional robustness checks, is in the full repository: https://github.com/khushishah-18/ECON-526---Roa-a-Khushi
 
+**Writing sample:** the final submitted paper is included in this folder: [ECON 526 - SCM Cannabis.pdf](ECON%20526%20-%20SCM%20Cannabis.pdf).
+
 ## Research question
 
 Did the legalization of recreational cannabis in Canada in 2018 causally affect labour productivity?
@@ -12,7 +14,7 @@ Did the legalization of recreational cannabis in Canada in 2018 causally affect 
 
 - Labour productivity (GDP per hour worked, USD) and country-level covariates for 37 countries, annual, 1997 to 2023 (`scm_dataset.csv`)
 - Treated unit: Canada. Pre-treatment period 1997 to 2018, post-treatment period 2019 to 2023.
-- Donor pool: the other countries, excluding the United States (state-level legalization during the pre-treatment period) and the Netherlands (decriminalization).
+- Donor pool: the 35 other countries in the dataset, after excluding the Netherlands (decriminalization). The code's exclusion list also names the United States (state-level legalization during the pre-treatment period), although it is not in the dataset.
 
 ## Method
 
